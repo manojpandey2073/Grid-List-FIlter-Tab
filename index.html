@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid and List Tab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-nav">
+            <button type="button" class="toggle">
+                <span>Grid</span>
+                <span>List</span>
+            </button>
+            <div class="grid-filter-btn">
+                <div class="grid-filter-btn-ul">
+                    <div class="form-radio active">
+                        <input type="radio" name="category" id="all" checked>
+                        <label for="all">VIEW ALL</label>
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" name="category" id="LIFE SCIENCE">
+                        <label for="LIFE SCIENCE">LIFE SCIENCE</label>
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" name="category" id="technology">
+                        <label for="technology">TECHNOLOGY</label>
+                    </div>
+                    <!-- <li>View All</li>
+                    <li>Nature</li>
+                    <li>Mountains</li> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid tab content -->
+
+    <!-- View All Tab -->
+    <div class="container">
+
+
+        <div class="grid-content-container" data-tab="view-all">
+            <div class="grid-content-outer">
+            </div>
+        </div>
+
+        <!-- Nature Tab -->
+        <div class="grid-content-container" data-tab="nature">
+            <div class="grid-content-outer">
+                <div class="grid-outer-body">
+                    <div class="grid-inner-body">
+                        <div class="grid-picture-video">
+                            <img class="grid-body-img" src="https://www.red-fern.co.uk/app/uploads/2024/01/CaseStudyIndexImage-BioPrep.jpg
+                            " alt="dummy image">
+                            <video class="grid-body-video" autoplay playsinline loop
+                                src="https://www.red-fern.co.uk/app/uploads/2024/01/IrvinCaseStudyHeaderVideo-1.mp4"
+                                type="video/mp4"></video>
+                            <span class="mask">&nbsp;</span>
+                        </div>
+                        <div class="grid-text">
+                            <div class="grid-body-title"><h2>At vero eos et accusamus et</h2></div>
+                            <div class="grid-body-subtitle">
+                                GLOBAL WEBSITE LAUNCH, AUGMENTED REALITY, MARKETING
+                            </div>
+                            <div class="grid-body-cta"><a class="grid-body-cta-btn" href="#" target="_blank">Read More</a></div>
+                        </div>
+                    </div>
+                    
+                    <span class="custom-cursor"
+                        style="translate: none; rotate: none; scale: none; transform: translate(190px, 220px);"><span
+                            class="custom-cursor-content"><span>Read more</span></span></span>
+                </div>
+                <div class="grid-outer-body">
+                    <a href="#" class="grid-holder">
+                        <div class="grid-inner-body">
+                            <div class="grid-picture-video">
+                                <img class="grid-body-img" src="https://www.red-fern.co.uk/app/uploads/2024/01/CaseStudyIndexImage-BioPrep.jpg
+                                " alt="dummy image">
+                                <video class="grid-body-video" autoplay playsinline loop
+                                    src="https://www.red-fern.co.uk/app/uploads/2024/01/IrvinCaseStudyHeaderVideo-1.mp4"
+                                    type="video/mp4"></video>
+                                <span class="mask">&nbsp;</span>
+                            </div>
+                            <div class="grid-text">
+                                <div class="grid-body-subtitle">
+                                    <span>GLOBAL WEBSITE LAUNCH, AUGMENTED REALITY, MARKETING</span>
+                                    <span>Nature</span>
+                                </div>
+                                <h3 class="grid-body-heading">
+                                    Nature
+                                </h3>
+                            </div>
+                        </div>
+                    </a>
+                    <span class="custom-cursor"
+                        style="translate: none; rotate: none; scale: none;transform: translate(190px, 220px);"><span
+                            class="custom-cursor-content"><span>Read more</span></span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mountains Tab -->
+        <div class="grid-content-container" data-tab="mountains">
+            <div class="grid-content-outer">
+                <div class="grid-outer-body">
+                    <a href="#" class="grid-holder">
+                        <div class="grid-inner-body">
+                            <div class="grid-picture-video">
+                                <img class="grid-body-img"
+                                    src="https://www.red-fern.co.uk/app/uploads/2024/01/CaseStudyIndexImage.png"
+                                    alt="dummy image">
+                                <video class="grid-body-video" autoplay playsinline loop
+                                    src="https://www.red-fern.co.uk/app/uploads/2024/01/IrvinCaseStudyHeaderVideo-1.mp4"
+                                    type="video/mp4"></video>
+                                <span class="mask">&nbsp;</span>
+                            </div>
+                            <div class="grid-text">
+                                <div class="grid-body-subtitle">
+                                    <span>GLOBAL WEBSITE LAUNCH, AUGMENTED REALITY, MARKETING</span>
+                                    <span>Mountains</span>
+                                </div>
+                                <h3 class="grid-body-heading">
+                                    Mountains
+                                </h3>
+                            </div>
+
+                        </div>
+                    </a>
+                    <span class="custom-cursor"
+                        style="translate: none; rotate: none; scale: none; transform: translate(190px, 220px);"><span
+                            class="custom-cursor-content"><span>Read more</span></span></span>
+                </div>
+                <div class="grid-outer-body">
+                    <a href="#" class="grid-holder">
+                        <div class="grid-inner-body">
+                            <div class="grid-picture-video">
+                                <img class="grid-body-img"
+                                    src="https://www.red-fern.co.uk/app/uploads/2024/01/CaseStudyIndexImage.png"
+                                    alt="dummy image">
+                                <video class="grid-body-video" autoplay playsinline loop
+                                    src="https://www.red-fern.co.uk/app/uploads/2024/01/IrvinCaseStudyHeaderVideo-1.mp4"
+                                    type="video/mp4"></video>
+                                <span class="mask">&nbsp;</span>
+                            </div>
+                            <div class="grid-text">
+                                <div class="grid-body-subtitle">
+                                    <span>GLOBAL WEBSITE LAUNCH, AUGMENTED REALITY, MARKETING</span>
+                                    <span>Mountains</span>
+                                </div>
+                                <h3 class="grid-body-heading">
+                                    Mountains
+                                </h3>
+                            </div>
+
+                        </div>
+                    </a>
+                    <span class="custom-cursor"
+                        style="translate: none; rotate: none; scale: none; transform: translate(190px, 220px);"><span
+                            class="custom-cursor-content"><span>Read more</span></span></span>
+                </div>
+                <div class="grid-outer-body">
+                    <a href="#" class="grid-holder">
+                        <div class="grid-inner-body">
+                            <div class="grid-picture-video">
+                                <img class="grid-body-img"
+                                    src="https://www.red-fern.co.uk/app/uploads/2024/01/CaseStudyIndexImage.png"
+                                    alt="dummy image">
+                                <video class="grid-body-video" autoplay playsinline loop
+                                    src="https://www.red-fern.co.uk/app/uploads/2024/01/IrvinCaseStudyHeaderVideo-1.mp4"
+                                    type="video/mp4"></video>
+                                <span class="mask">&nbsp;</span>
+                            </div>
+                            <div class="grid-text">
+                                <div class="grid-body-subtitle">
+                                    <span>GLOBAL WEBSITE LAUNCH, AUGMENTED REALITY, MARKETING</span>
+                                    <span>Mountains</span>
+                                </div>
+                                <h3 class="grid-body-heading">
+                                    Mountains
+                                </h3>
+                            </div>
+
+                        </div>
+                    </a>
+                    <span class="custom-cursor"
+                        style="translate: none; rotate: none; scale: none;transform: translate(190px, 220px);"><span
+                            class="custom-cursor-content"><span>Read more</span></span></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
